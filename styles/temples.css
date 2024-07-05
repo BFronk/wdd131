@@ -11,13 +11,14 @@ header {
 p {
     color: orange;
 }
-
-.open {
-    display: flex;
+main {
+    max-width: 800px;
 }
+
 .main_grid {
     display: grid;
-    grid-template-columns: 1fr;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
 
 }
@@ -25,5 +26,4 @@ p {
 .caption {
     text-align: center;
     color: black;
-    display: ;
 }

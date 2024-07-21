@@ -12,7 +12,7 @@
 
 /* Globals */
 html {
-    background-color: #508f91;
+    background-color: rgba(104, 253, 49, 0.57);
 }
 
 h1 {
@@ -96,7 +96,7 @@ header {
 
 /* Main */
 main {
-    background-color: #f5f5dc;
+    background-color: #dadacd;
     margin: 0 auto;
     max-width: 1000px;
 }
@@ -110,7 +110,7 @@ main {
 
 figure {
     display: grid;
-    background-color: #e1e1c8;
+    background-color: #eaeae8;
     box-shadow: 1px 1px 2px #cdcdb4, -1px -1px 2px #cdcdb4, -1px 1px 2px #cdcdb4, 1px -1px 2px #cdcdb4;
     padding: 1em;
     margin: 0 auto;

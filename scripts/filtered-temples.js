@@ -10,112 +10,112 @@ const pageTitle = document.querySelector('#title');
 
 const temples = [
 	{
-		templeName: "Aba Nigeria",
-		location: "Aba, Nigeria",
-		dedicated: "2005, August, 7",
-		area: 11500,
-		imgWidth: 399,
+		templeName: "Salt Lake",
+		location: "Salt lake City Utah",
+		dedicated: "1893, April, 6",
+		area: 253015,
+		imgWidth: 400,
 		imgHieght: 250,
 		imageUrl: "images/salt-lake-temple.jpeg"
 	},
 	{
-		templeName: "Manti Utah",
-		location: "Manti, Utah, United States",
-		dedicated: "1888, May, 21",
-		area: 74792,
-		imgWidth: 399,
-		imgHieght: 250,
-		imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/manti-utah/400x250/manti-temple-768192-wallpaper.jpg"
-	},
-	{
-		templeName: "Payson Utah",
-		location: "Payson, Utah, United States",
-		dedicated: "2015, June, 7",
-		area: 96630,
+		templeName: "Provo",
+		location: "Provo, Utah",
+		dedicated: "1972, February, 9 ",
+		area: 128325,
 		imgWidth: 400,
 		imgHieght: 250,
-		imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/payson-utah/400x225/payson-utah-temple-exterior-1416671-wallpaper.jpg"
+		imageUrl: "images/Provo_Utah_Temple.jpeg"
 	},
 	{
-		templeName: "Yigo Guam",
-		location: "Yigo, Guam",
-		dedicated: "2020, May, 2",
-		area: 6861,
+		templeName: "Orlando",
+		location: "Orlando, Florida",
+		dedicated: "1994, October, 9",
+		area: 70000,
+		imgWidth: 400,
+		imgHieght: 250,
+		imageUrl: "images/Orlando_Florida_Temple.jpeg"
+	},
+	{
+		templeName: "Fort Lauderdale",
+		location: "Fort Lauderdale, Florida",
+		dedicated: "2014, May, 4",
+		area: 30500,
 		imgWidth: 400,
 		imgHieght: 225,
-		imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/yigo-guam/400x250/yigo_guam_temple_2.jpg"
+		imageUrl: "images/Fort_Lauderdale_Florida_Temple.jpg"
 	},
 	{
-		templeName: "Washington D.C.",
-		location: "Kensington, Maryland, United States",
-		dedicated: "1974, November, 19",
-		area: 156558,
+		templeName: "Pheonix Arizona",
+		location: "Pheonix Arizona",
+		dedicated: "2014, November, 16",
+		area: 64870,
 		imgWidth: 400,
 		imgHieght: 250,
-		imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/washington-dc/400x250/washington_dc_temple-exterior-2.jpeg"
+		imageUrl: "images/phoenix_arizona_temple.webp"
 	},
 	{
-		templeName: "Lima Perú",
-		location: "Lima, Perú",
-		dedicated: "1986, January, 10",
-		area: 9600,
+		templeName: "Mesa Arizona",
+		location: "Mesa, Arizona",
+		dedicated: "1927, October, 23",
+		area: 113916,
 		imgWidth: 400,
 		imgHieght: 250,
-		imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/lima-peru/400x250/lima-peru-temple-evening-1075606-wallpaper.jpg"
+		imageUrl: "images/Mesa_Temple.jpg"
 	},
 	{
-		templeName: "Mexico City Mexico",
+		templeName: "Mexico City",
 		location: "Mexico City, Mexico",
-		dedicated: "1983, December, 2",
+		dedicated: "1983, 2, December ",
 		area: 116642,
 		imgWidth: 400,
 		imgHieght: 250,
-		imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
+		imageUrl: "images/Mexico_City_Temple.jpeg"
 	},
 	{
-		templeName: "San Diego California",
-		location: "San Diego, California",
-		dedicated: "1993, April, 25",
-		area: 72000,
-		imgWidth: 399,
-		imgHieght: 250,
-		imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/san-diego-california/400x250/san-diego-temple-765109-wallpaper.jpg"
-	},
-	{
-		templeName: "St. George Utah",
-		location: "St George, Utah",
-		dedicated: "1877, April, 6",
-		area: 143969,
+		templeName: "Buenos Aries",
+		location: "Buenos Aries, Argentina",
+		dedicated: "1986, January, 17 ",
+		area: 30659,
 		imgWidth: 400,
 		imgHieght: 250,
-		imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/st-george-utah/400x250/st-george-utah-temple-clouds-922212-wallpaper.jpg"
+		imageUrl: "images/Buenos_Aires_Argentina_Temple.jpeg"
 	},
 	{
-		templeName: "Preston England",
-		location: "Chorley, Lancashire, England",
-		dedicated: "1998, June, 7",
-		area: 69630,
-		imgWidth: 399,
-		imgHieght: 250,
-		imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/preston-england/400x250/preston-temple-762730-wallpaper.jpg"
-	},
-	{
-		templeName: "Los Angeles California",
-		location: "Los Angeles, California",
-		dedicated: "1956, March, 11",
-		area: 190614,
+		templeName: "Rome",
+		location: "Rome, Italy",
+		dedicated: "2019, March, 10",
+		area: 41010,
 		imgWidth: 400,
 		imgHieght: 250,
-		imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/los-angeles-california/400x250/los-angeles-california-temple-1079458-wallpaper.jpg"
+		imageUrl: "images/Rome_Temple.jpeg"
 	},
 	{
-		templeName: "Fukuoka Japan",
+		templeName: "Fukuoka, Japan",
 		location: "Fukuoka, Japan",
-		dedicated: "2000, June, 11",
+		dedicated: "2000, June, 11, ",
 		area: 10700,
 		imgWidth: 399,
 		imgHieght: 250,
-		imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/fukuoka-japan/400x250/fukuoka-japan-temple-lds-306863-wallpaper.jpg"
+		imageUrl: "images/Fukuoka_Japan_Temple.jpeg"
+	},
+	{
+		templeName: "Los Angeles",
+		location: "Los Angeles, California",
+		dedicated: "1956, March, 11, ",
+		area: 90614,
+		imgWidth: 400,
+		imgHieght: 250,
+		imageUrl: "images/Los_Angeles_Temple.jpeg"
+	},
+	{
+		templeName: "Ogden",
+		location: "Ogden, Utah",
+		dedicated: "1972, January, 18",
+		area:112232,
+		imgWidth: 399,
+		imgHieght: 250,
+		imageUrl: "images/Ogden_Temple.jpeg"
 	}
 ];
 
@@ -180,5 +180,5 @@ smallButton.addEventListener('click', () => {
 	pageTitle.textContent = 'Small';
 	smallButton.classList.toggle('active');
 
-	buildTempleAlbum(temples.filter(temple => temple.area < 10000));
+	buildTempleAlbum(temples.filter(temple => temple.area < 40000));
 })

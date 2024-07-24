@@ -1,3 +1,17 @@
 #wireframe_image {
-    width: 100%;
+    width: 90%;
+}
+.red_box {
+    background-color: red;
+}
+.grey_box {
+    background-color: grey;
+}
+.black_box {
+    background-color: black;
+    color: white;
+}
+.color {
+    display: inline;
+    padding:  5px;
 }

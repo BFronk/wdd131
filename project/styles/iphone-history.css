@@ -2,10 +2,9 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: red;
-  }
+}
   
-nav {
-    color:red;
+ul { 
     align-items: center;
     display: flex;
     justify-content: space-around;
@@ -39,28 +38,63 @@ body {
 .main-image {
     justify-self: center;
     align-self: center;
+    border-radius: 3px;
 }
-a:hover {
-    color: red;
-}
-a:active {
-    color: black;
-}
+
+ul {display: none;}
+a:hover {color: white;}
+
+
 .main_page_content {
     font-size: 20px;
 }
 
-.intro {
-    margin: 20px;
+#menu {
+    font-size: 2.5rem;
+    background-color: red;
     
+}
+#menu.show::after {
+    content: X;
+}
+#menu::before {
+    content: '≡';
+    font-size: 2.5rem;
+    font-weight:700;
+    margin: 10px;
+    text-decoration: none;
+    color: #000;
+}
+.navigation.show ul div, a{
+   display: block;
 }
 
 
+header.show {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.show ul{
+    font-size: 24px;
+    line-height: 1.5;
+    display: block;
+}
+
+a:active {
+    color: white;
+}
+a:hover {
+    color: white;
+}
+a:visited {
+    color: #000;
+}
 /* IOS Page  */
 .ios-box {
 background-color: grey;
 margin: 20px;
-height: 200px;
+height: 225px;
 border-radius: 10px;
 padding: 5px;
 text-align: center;
@@ -72,7 +106,29 @@ text-align: center;
 }
 
 .ios-box:hover {
-    height: 220px;
+    height: 245px;
     border: 1px solid red;
     margin: 5px;
+    font-size: 17px;
+}
+
+
+
+@media screen and (max-width: 880px) {
+    .ios-grid { 
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .ios-box {
+        height: 85px;
+    }
+    .ios-box:hover {
+        height: 95px;
+        border: 1px solid red;
+        margin: 5px;
+        font-size: 17px;
+    }
+    .header_links {
+        display: inline;
+    }
 }

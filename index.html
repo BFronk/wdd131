@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="styles/base.css" />    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Main</title>
+    <meta name="author" content="Bridger Fronk">
+    <meta name="description" content="WDD 131: Dynamic Web Fundamentals - Beidger Fronk. About me">
+    <title>"WDD 131 - Dynamic Web Fundamentals - Bridger Fronk"</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
+    <script src="./scripts/getdates.js" defer></script>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <header>
+        <div id="header">
+            <h1 id="title_heading">  WDD 131 - Dynamic Web Fundamentals - Bridger Fronk</h1>
+            <nav id="header_links">
+                <a href="index.html">Linkedin</a>
+                <a href="site-plan-rafting.html">ILearn</a>
+                <a href="#">Scripture</a>
+                <a href="conatactus.html">Final Project</a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="card" id="about_me_column">
+            <div id="about_me_header">
+                <h2>About Me</h2>
+            </div>
+            <div id= "about_me_text">
+                <p>Hi! My name is bridger Fronk, I am 21 years old and I live in Vero Beach, Florida(United States). I love to go to amusement parks, bowl, play any kind of game, and I'm a huge apple nerd. This is my 5th semester in Pathways and I have been loving it so far! I can't wait to learn and grow with all of you!</p>
+            </div>
+                <img  id="cheese_image" src="images/self_image.png" alt="river icon">
+        </div>
+        <section class="card" id="sidebar">
+            <div id= "important_links">
+                <h2>Important links</h2>
+                <a class="il" id="Linkedin" href="index.html">Linkedin</a>
+                <a class="il" href="site-plan-rafting.html">ILearn</a>
+                <a class="il" href="#">Scripture</a>
+                <a class="il" href="conatactus.html">Final Project</a>
+                <img  id="country_image" src="images/flag.png" alt="river icon">
+                <p id="flag_caption">United States Flag</p>
+            </div>
+
+        </section>
+        
+    </main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Bridger Fronk</p>
+        <span id="lastModified"></span>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,17 @@
+
+@media only screen and (min-width: 800px) {
+    
+    .main_grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 20px;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 500px) {
+    .main-grid {
+        display: grid;
+        grid-template-columns: 1fr
+    }
+}

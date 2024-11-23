@@ -1,0 +1,52 @@
+#menu {
+    display:block;
+    color: black;
+    font-size: 30px;
+    background-color: lightblue;
+	text-decoration: none;
+}
+
+h2 {
+    display: none;
+}
+h2 .show {
+    display: inline;
+    text-align: center;
+}
+.navigation {
+    list-style: none;
+}
+
+#menu::before {
+	content: "≡   ";
+}
+
+.main_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+li {
+    padding: 3px;
+}
+ul {
+    display: none;
+    background-color: rgb(0, 255, 229);
+}
+li:hover {
+    background-color: white;
+}
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.show {
+    display: block;
+}
+
+#menu.show::before {
+	content: "X         ";
+    font-size: large;
+    text-justify: center;
+}

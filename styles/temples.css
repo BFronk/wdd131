@@ -48,5 +48,4 @@ a {
 #menu.show::before {
 	content: "X         ";
     font-size: large;
-    text-justify: center;
 }

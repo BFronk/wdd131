@@ -1,16 +1,11 @@
-const mainnav = document.querySelector('.navigation')
+const mainnav = document.querySelector('.navigation');
 const hambutton = document.querySelector('#menu');
-const homeLink = document.querySelector("#home-link") 
-const oldLink = document.querySelector("#old-link") 
-const newLink = document.querySelector("#new-link") 
-const smallLink = document.querySelector("#small-link") 
-const largeLink = document.querySelector("#large-link") 
-const homeHeading = document.querySelector("#home-heading")
-const oldHeading = document.querySelector("#old-heading")
-const newHeading = document.querySelector("#new-heading")
-const smallHeading = document.querySelector("#small-heading")
-const largeHeading = document.querySelector("#large-heading")
-
+const homeLink = document.querySelector("#home-link"); 
+const oldLink = document.querySelector("#old-link");
+const newLink = document.querySelector("#new-link"); 
+const smallLink = document.querySelector("#small-link"); 
+const largeLink = document.querySelector("#large-link");
+const mainHeading = document.querySelector("#main-heading")
 
 hambutton.addEventListener('click', () => {
 	mainnav.classList.toggle('show');
@@ -18,40 +13,17 @@ hambutton.addEventListener('click', () => {
 })
 
 oldLink.addEventListener('click', () => {
-	oldHeading.classList.toggle('show');
-    smallHeading.classList.remove("show")
-    largeHeading.classList.remove('show')
-    newHeading.classList.remove('show')
-    homeHeading.classList.remove('show')
+    mainHeading.textContent = "Old"
 })
 homeLink.addEventListener('click', () => {
-	oldHeading.classList.remove('show');
-    smallHeading.classList.remove("show")
-    largeHeading.classList.remove('show')
-    newHeading.classList.remove('show')
-    homeHeading.classList.toggle('show')
+    mainHeading.textContent = "Home"
 })
-
 newLink.addEventListener('click', () => {
-	oldHeading.classList.remove('show');
-    smallHeading.classList.remove("show")
-    largeHeading.classList.remove('show')
-    newHeading.classList.toggle('show')
-    homeHeading.classList.remove('show')
+    mainHeading.textContent = "New"
 })
-
 smallLink.addEventListener('click', () => {
-	oldHeading.classList.remove('show');
-    smallHeading.classList.toggle("show")
-    largeHeading.classList.remove('show')
-    newHeading.classList.remove('show')
-    homeHeading.classList.remove('show')
+    mainHeading.textContent = "Small"
 })
-
 largeLink.addEventListener('click', () => {
-	oldHeading.classList.remove('show');
-    smallHeading.classList.remove("show")
-    largeHeading.classList.toggle('show')
-    newHeading.classList.remove('show')
-    homeHeading.classList.remove('show')
+    mainHeading.textContent = "Large"
 })

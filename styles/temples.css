@@ -6,13 +6,6 @@
 	text-decoration: none;
 }
 
-h2 {
-    display: none;
-}
-h2 .show {
-    display: inline;
-    text-align: center;
-}
 .navigation {
     list-style: none;
 }

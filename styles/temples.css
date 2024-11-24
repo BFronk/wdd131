@@ -45,3 +45,8 @@ a {
 	content: "X         ";
     font-size: large;
 }
+
+footer {
+    text-align: center;
+    background-color: lightblue;
+}

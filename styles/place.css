@@ -87,4 +87,12 @@ main {
         grid-row: 2/3;
         padding-top: 10px;
     }
+
+    main:root {
+
+    }
+
+    main::after {
+        
+    }
 }

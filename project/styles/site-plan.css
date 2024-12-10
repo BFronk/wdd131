@@ -1,0 +1,35 @@
+#colors {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+p {
+    font-size: large;
+}
+#color1 {
+  width: 50px;  
+  height: 50px;
+  background-color: red;
+  justify-self: center;
+}
+
+#color2 {
+    width: 50px;  
+    height: 50px;
+    background-color: blue; 
+    justify-self: center;
+
+}
+
+#color3 {
+    width: 50px;  
+    height: 50px;
+    background-color: grey;
+    justify-self: center;
+}
+#color4 {
+    width: 50px;  
+    height: 50px;
+    background-color: black;
+    justify-self: center;
+
+}

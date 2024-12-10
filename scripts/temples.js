@@ -1,6 +1,6 @@
 const mainnav = document.querySelector('.navigation');
 const hambutton = document.querySelector('#menu');
-const homeLink = document.querySelector("#home-link"); 
+const  homeLink = document.querySelector("#home-link"); 
 const oldLink = document.querySelector("#old-link");
 const newLink = document.querySelector("#new-link"); 
 const smallLink = document.querySelector("#small-link"); 

@@ -48,6 +48,14 @@ ul {
 li:hover {
     background-color: white;
 }
+
+nav {
+    flex: auto;
+}
+
+nav a:hover {
+
+}
 nav {
     flex: auto;
 }

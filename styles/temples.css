@@ -29,7 +29,7 @@ li:hover {
     background-color: white;
 }
 nav {
-    flex: auto;
+    display: flex;
 }
 a {
     font-size: 20px;

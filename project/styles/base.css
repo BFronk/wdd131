@@ -1,0 +1,43 @@
+header {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    color: white;
+    background-color: rgb(19, 100, 251);
+    font-size: 24px;
+    padding: 10px;
+}
+
+header p {
+    font-size: 24px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+}
+
+
+footer {
+    text-align: center;
+    background-color: lightblue;
+    padding: 10px;
+}
+a {
+    text-decoration: none;
+    grid-row: 2/3;
+    font-weight: bold;
+}
+
+/* #main-title {
+    margin: 5px;
+} */
+
+a:hover {
+    color: black;
+    font-size: 26px;
+}
+a:visited {
+    color: gray;
+}

@@ -1,37 +1,33 @@
 #colors {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 p {
     font-size: large;
 }
 #color1 {
-  width: 50px;  
-  height: 50px;
+  width: 100px;  
+  height: 100px;
   background-color: red;
   justify-self: center;
+  padding: 5px;
 }
 
 #color2 {
-    width: 50px;  
-    height: 50px;
+    width: 100px;  
+    height: 100px;
     background-color: blue; 
     justify-self: center;
-
+    padding: 5px;
 }
 
 #color3 {
-    width: 50px;  
-    height: 50px;
-    background-color: grey;
-    justify-self: center;
-}
-#color4 {
-    width: 50px;  
-    height: 50px;
+    width: 100px;  
+    height: 100px;
     background-color: black;
+    color: white;
     justify-self: center;
-
+    padding: 5px;
 }
 
 #f1 {
@@ -41,6 +37,4 @@ p {
 #f2 {
     font-family: "Kirang Haerang";
 }
-#f3 {
-    font-family: "Arsenal SC";
-}
+

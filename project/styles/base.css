@@ -1,3 +1,7 @@
+main {
+    background-color: antiquewhite;
+}
+
 header {
     display: grid;
     grid-template-columns: 4fr 1fr;
@@ -14,14 +18,22 @@ header p {
 nav {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     
+}
+
+#welcome {
+    font-family: "Kirang Haerang";
+    font-size: 40px;
+    text-align: center;
+    padding: 20px 0;
+    grid-column: 2/3;
 }
 
 
 footer {
     text-align: center;
-    background-color: lightblue;
+    background-color: rgb(19, 100, 251);
     padding: 10px;
 }
 a {
@@ -30,9 +42,12 @@ a {
     font-weight: bold;
 }
 
-/* #main-title {
-    margin: 5px;
-} */
+#text-boxes {
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    font-family: "Arsenal SC";
+}
+
 
 a:hover {
     color: black;
@@ -40,4 +55,126 @@ a:hover {
 }
 a:visited {
     color: gray;
+}
+
+#text1 {
+    background-color: rgb(251, 62, 62);
+    width: 95%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 24px;
+    grid-column: 2/3;
+    line-height: 200%;
+    max-width: 1300px;
+    justify-self: center;
+}
+#text2 {
+    background-color: rgb(251, 62, 62);
+    width: 95%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 20px;
+    grid-column: 2/3;
+    line-height: 200%;
+    max-width: 1300px;
+    justify-self: center;
+}
+
+#text3 {
+    background-color: rgb(251, 62, 62);
+    width: 95%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 20px;
+    grid-column: 2/3;
+    line-height: 200%;
+    max-width: 1300px;
+    justify-self: center;
+}
+
+#text4 {
+    background-color: rgb(251, 62, 62);
+    width: 95%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    font-size: 20px;
+    grid-column: 2/3;
+    line-height: 200%;
+    max-width: 1300px;
+    justify-self: center;
+}
+
+  
+
+
+body {
+    background-color: antiquewhite;
+}
+/* GAMES PAGE */
+
+.intro {
+    font-size: 28px;
+    background-color: rgba(29, 154, 217, 0.681);
+    border-radius: 10px;
+    padding: 30px 20px;
+    margin: 15px;
+    grid-column: 2/3;
+    justify-self: center;
+}
+.game-image {
+    justify-self: center;
+    /* align-self: center; */
+    border-radius: 3px;
+}
+
+.list-item {
+    font-size: 24px;
+    line-height: 200%;
+    padding-left: 10px;
+}
+
+.game-heading {
+    text-align: center;
+    font-size: 28px;
+}
+#games-list {
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+}
+.main-game-box {
+    align-items: center;
+    font-family: "roboto";
+    background-color: rgb(251, 62, 62);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+    min-height: 200px;
+    max-width: 1300px;
+    justify-self: center;
+}
+
+.game-box-text {
+    grid-template-columns: 1fr;
+}
+
+
+
+.game-image {
+    width: 50%;
+    max-height: 500px;
+}
+
+#heading {
+    width: 100%;
+    text-align: center;
+    font-family: "Kirang Haerang";
+    font-size: 40px;
 }

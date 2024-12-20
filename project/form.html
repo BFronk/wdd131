@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BCG Form</title>
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/large.css">
-    <meta descrption="A site plan for my final project">
+    <link rel="stylesheet" href="styles/small.css">
+    <meta descrption="Form for my final project">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Arsenal+SC&family=Kirang+Haerang&family=Roboto&display=swap" rel="stylesheet">
@@ -14,19 +14,19 @@
 </head>
 <body>
     <header>
-        <p>BCG start</p>
-        <nav>
-            <a class="main-nav" href="index.html">Home</a>
-            <a class="main-nav" href="games.html">Games</a>
-            <a class="main-nav" href="form.html">Form</a>
+        <p id="main-title">BCG start</p>
+        <nav id="main-nav">
+            <a class="main-nav" id="home-link"  href="index.html">Home</a>
+            <a class="main-nav" id="games-link"  href="games.html">Games</a>
+            <a class="main-nav" id="form-link"  href="form.html">Form</a>
         </nav>
     </header>
-    <main>
+    <main id="form-main">
         <form method="get" action="thanks.html" class="wf1">
-            <legend>Applicanat Information</legend>
-            <label>First name*<input type="text" name="fname" required></label>
-            <label>Last name*<input type="text" name="lname" required></label>
-            <label>Email*<input type="email" name="email" placeholder="example@gmail.com" required></label>
+            <legend>Email sign up</legend>
+            <label>First name*<input type="text" name="fname" class="form-field"></label>
+            <label>Last name*<input type="text" name="lname" class="form-field" required></label>
+            <label>Email*<input type="email" name="email" class="form-field" placeholder="example@gmail.com" required></label>
         </form>
     </main>
     <footer>

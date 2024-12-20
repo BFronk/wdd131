@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BCG games</title>
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/small.css">
     <meta descrption="a list of recommended games for BCG start">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,11 +14,11 @@
 </head>
 <body>
     <header>
-        <p>BCG start</p>
-        <nav>
-            <a class="main-nav" href="index.html">Home</a>
-            <a class="main-nav" href="games.html">Games</a>
-            <a class="main-nav" href="form.html">Form</a>
+        <p id="main-title">BCG start</p>
+        <nav id="main-nav">
+            <a class="main-nav" id="home-link"  href="index.html">Home</a>
+            <a class="main-nav" id="games-link"  href="games.html">Games</a>
+            <a class="main-nav" id="form-link"  href="form.html">Form</a>
         </nav>
     </header>
     <main>
@@ -80,13 +80,13 @@
                 <img class="game-image" src="images/bohnanza.webp" alt="Bohanza" loading="lazy">
                 <div class="game-box-text">
                     <p class="game-heading"><strong>Bohanza</strong></p>
-                    <p class="list-item">This is a highly addicting set building game where you have to barter for the cards you bwaant from other players in order to sell your crops for the most money that you can and win the game. Great geme where you naturally build alliances and enemies and a ton of fun!</p>
+                    <p class="list-item">This is a highly addicting set building game where you have to barter for the cards you want from other players in order to sell your crops for the most money that you can and win the game. Great geme where you naturally build alliances and enemies and a ton of fun!</p>
                 </div>
             </div>
             <div class="main-game-box">
                 <div class="game-box-text">
                     <p class="game-heading"><strong>Apples to Apples</strong></p>
-                    <p class="list-item">Great game for large groups where a judge gets to shoose their favorite answer to a selection of cards by the other pkayers that describe a adjetive. Hilarious and wildly entertaining!</p>
+                    <p class="list-item">Great game for large groups where a judge gets to choose their favorite answer to a selection of cards by the other players that describe a adjetive. Hilarious and wildly entertaining!</p>
                 </div>
                 <img class="game-image" src="images/apples-to-apple.webp" alt="Apples to Apples" loading="lazy">
             </div>
@@ -98,6 +98,9 @@
                 </div>
             </div>
             </section>
+            <h1>Need a Board Game Idea?</h1>
+        <button id="recommendButton">Get a Recommendation</button>
+        <p id="recommendation" style="font-size: 1.2em; font-weight: bold; margin-top: 10px;"></p>
     </main>
     <footer>
         <p>&copy; <span id="currentYear"></span> Bridger Fronk</p>

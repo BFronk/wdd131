@@ -30,6 +30,12 @@ li:hover {
 }
 nav {
     display: flex;
+
+
+}
+nav:hover {
+    color:black
+
 }
 a {
     font-size: 20px;

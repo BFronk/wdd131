@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="styles/base.css" />    
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Bridger Fronk">
+        <meta name="description" content="WDD 131: Dynamic Web Fundamentals - Beidger Fronk. About me">
+        <title>"Argentina"</title>
+        <link rel="stylesheet" href="styles/place.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap" rel="stylesheet">        
+        <script src="./scripts/getdates.js" defer></script>
+        <script src="./scripts/place.js" defer></script>
+
+    </head>
+<body>
+    <header>
+        <h1 id="main-header">Argentina</h1>
+    </header>
+    <figure>
+        <img id="main-image" src="images/Argentina.webp" alt="argentinian waterfall">
+    </figure>
+    <figure>
+        <img id="small-image" src="images/Argintina-small-view.webp" alt="argentinian waterfall">
+    </figure>
+    <main>
+        <div class="data-card">
+            <h1>Info</h1>
+            <p><strong>Area: 2,780,400 km2</strong></p>
+            <p><strong>Population: 47,067,441</strong></p>
+            <p><strong>Capital: Buenos Aires</strong></p>
+            <p><strong>Languages: Spanish(official language)</strong></p>
+            <p><strong>Currency: Argentine Peso</strong></p>
+            <p><strong>Time Zone: UTC-3</strong></p>
+            <p><strong>Calling Code: +54</strong></p>
+            <p><strong>Internet TLD: .ar </strong></p>
+        </div>
+        <div id="dividing-line">
+
+        </div>
+        <div class="weather-card">       
+                
+                <h2>⛅️  Weather(averages)</h2>           
+            <p><strong>Temperature: 65</strong></p>
+            <p><strong>Conditions: sunny with breeze</strong></p>
+            <p><strong>Wind:25 </strong></p>
+            <p id="windchillval"><strong>Wind Chill: </strong></p>
+        </div>
+</main>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Bridger Fronk</p>
+        <span id="lastModified"></span>
+    </footer>
+</body>
+</html>

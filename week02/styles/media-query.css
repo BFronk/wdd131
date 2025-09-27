@@ -1,12 +1,14 @@
-header, main, body
-{
-    background-color: aqua;
-    min-width: 800px;
-    margin: 1rem auto;
-    border: 1px solid;
-    padding: 3px;
+body {
+    font: roboto;
 }
-main
-{
+
+header {
+
+}
+
+main {
+
+}
+footer {
     
 }

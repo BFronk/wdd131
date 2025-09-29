@@ -80,6 +80,7 @@ a {
 footer {
     text-align: center;
     background-color: lightblue;
+    flex: auto;
 }
 
 @media only screen and (min-width: 1150px) {

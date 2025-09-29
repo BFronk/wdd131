@@ -8,8 +8,9 @@ main {
     grid-template-columns: 1fr 1fr;
     gap: 10px;
 }
-image {
-    width: 400px;
+img {
+    width: 250px;
+    height: 200px;
 }
 #card {
     width: 400px;
@@ -81,7 +82,7 @@ footer {
     background-color: lightblue;
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1150px) {
     
     .main_grid {
         display: grid;

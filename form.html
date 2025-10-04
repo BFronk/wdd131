@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bridger Fronk">
+    <meta name="description" content="WDD 131: Dynamic Web Fundamentals - Beidger Fronk. About me">
+    <link rel="stylesheet" href="styles/form.css">    
+    <title>"Product Review Form"</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&display=swap" rel="stylesheet">
+    <script src="./scripts/getdates.js" defer></script>
+</head>
+<body>
+    <h1>Product review form</h1>
+    <form action="review.html" method="get" class="wf1">
+        <fieldset>
+           <legend>Product Name/Rating</legend> 
+           <Label>Project Name*
+            <select name="product" id="product-drop" required></select>
+                <option value="placeholder">Select a Product</option>
+              <option value="one">one</option>
+              <option value="two">two</option>
+              <option value="three">three</option>
+              <option value="four">four</option>
+              <option value="five">five</option>
+           </Label>
+           <div>Rating</div>
+                        <label><input type="radio" name="audience" value="one">⭐️</label>
+                        <label><input type="radio" name="audience" value="two">⭐️⭐️</label>
+                        <label><input type="radio" name="audience" value="three">⭐️⭐️⭐️</label>
+                        <label><input type="radio" name="audience" value="four">⭐️⭐️⭐️⭐️</label>
+                        <label><input type="radio" name="audience" value="five">⭐️⭐️⭐️⭐️⭐️</label>
+        </fieldset>
+        <fieldset>
+            <legend>Installation and Features</legend> 
+            <label>Date of installation<input type="date" name="date-installed"></label>
+            <div>Which features did you find useful in the product?</div>
+            <div>(check all that apply)</div>
+            <label><input type="checkbox" name="Durability" value="yes">Durability</label>
+            <label><input type="checkbox" name="Ease of Use" value="yes">Ease of Use</label>
+            <label><input type="checkbox" name="Performance" value="yes">Performance</label>
+            <label><input type="checkbox" name="Design" value="yes">Design</label>
+         </fieldset>
+         <fieldset>
+            <legend>Review and Name</legend> 
+            <Div>Review</Div>
+            <label><textarea name="review" id="review-field"></textarea></label>
+            <label>Name*<input type="text" name="fname" required></label>
+         </fieldset>
+         <input type="submit" Value="Post my review">
+      </form>
+</body>
+</html>

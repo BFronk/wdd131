@@ -1,0 +1,23 @@
+div {
+    font-size: large;
+    text-align: center;
+    padding: 5px;
+}
+
+#color {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
+}
+
+#color1 {
+    color: red;
+}
+
+#color2 {
+    color: rgb(141, 194, 239);
+}
+
+#color3 {
+    color: grey;
+}

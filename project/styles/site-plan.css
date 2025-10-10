@@ -21,3 +21,19 @@ div {
 #color3 {
     color: grey;
 }
+
+#roboto {
+    font-family: "Roboto";
+}
+
+#bbh-sans-bogle {
+    font-family: "BBH Sans Bogle";
+}
+
+img {
+    height: 400px;
+}
+
+#wireframetxt {
+    font-size: 24px;
+}

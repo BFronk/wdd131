@@ -1,8 +1,23 @@
-@media only screen and (max-width: 600px) {
+
+@media only screen and  (max-width:850px) {
+    .coaster-img {
+        height: 200px;
+        width: 275px;
+        justify-content: center;
+        align-content: center;
+    }
+    .coaster-box {
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+@media only screen and (max-width:700px) {
 
     .coaster-img {
         grid-row: 1/2;
         height: 200px;
+        width: 300px;
         justify-content: center;
     }
     .coaster-text {
@@ -16,9 +31,7 @@
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 2fr 1fr;
-        height: 450px;
-        align-items: center;
-        justify-items: center;
+        height: 475px;
     }
     .coaster-heading {
         text-align: center;

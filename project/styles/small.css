@@ -1,0 +1,37 @@
+@media only screen and (max-width: 700px) {
+    #text1,
+    #text2,
+    #text3,
+    #text4 {
+        font-size: 16px;
+    }
+    
+    .game-heading {
+        font-size: 18px;
+    }
+
+    #coaster-list {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr;
+        height: 400px;
+    }
+    .coaster-img {
+        grid-row: 1/2;
+        height: 200px;
+        justify-content: center;
+    }
+    .coaster-text {
+        grid-row: 2/3;
+        align-self: center;
+    }
+    /* .coaster-box {
+        justify-self: center;
+    } */
+
+
+    .list-item {
+        font-size: 14px;
+    }
+}
+

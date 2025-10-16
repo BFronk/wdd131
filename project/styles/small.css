@@ -25,7 +25,10 @@
         align-self: center;
         margin: 5px 20px;
     }
-     
+      #intro {
+        font-size: 20px;
+        margin: 10px;
+      }
     
     .coaster-box {
         display: grid;
@@ -43,10 +46,27 @@
 }
 
 
-@media only screen and (max-width:500px)
-{
+@media only screen and (max-width:500px) {
     .coaster-text {
         font-size: 18px;
     }
-     
+    Header {
+        display: grid;
+        grid-template-columns: 1fr;
+        font-size: 30px;
+        align-items: center;
+        justify-items: center;
+    }    
+    nav {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0
+    }
+
+    nav:hover {
+        background-color: black;
+    }
+    a {
+        padding: 10px
+    }
 }

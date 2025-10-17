@@ -69,10 +69,16 @@ footer {
 figcaption {
 
 }
+.about-img {
+    height: 350px;
+    width: 400px;
+}
 
 #coaster-pics {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
 }
 
 /* FORM */

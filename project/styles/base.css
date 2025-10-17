@@ -62,6 +62,7 @@ footer {
 #about-intro {
     font-family: BBH Sans Bogle;
     font-size: 50px;
+    text-align: center;
 }
 .hide {
     display: none;

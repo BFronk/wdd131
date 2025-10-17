@@ -43,8 +43,14 @@
     .list-item {
         font-size: 14px;
     }
+    #coaster-pics {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    /* .about-img {
+    height: 200px;
+} */
 }
-
 
 @media only screen and (max-width:500px) {
     .coaster-text {
@@ -68,5 +74,9 @@
     }
     a {
         padding: 10px
+    }
+
+    #about-intro {
+        text-align: center;
     }
 }

@@ -50,6 +50,30 @@ img {
     width: 400px;
     justify-self: center;
 }
+footer {
+    text-align: center;
+    background-color: red;
+    padding: 1px 0px 10px 0px;
+    margin-top: 50px;
+}
+
+/* ABOUT */
+
+#about-intro {
+    font-family: BBH Sans Bogle;
+    font-size: 50px;
+}
+.hide {
+    display: none;
+}
+figcaption {
+
+}
+
+#coaster-pics {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
 /* FORM */
 #news-intro {

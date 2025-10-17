@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tallest coasters and why they're awesome</title>
     <link rel="stylesheet" href="styles/base.css">   
-    <link rel="stylesheet" href="styles/small.css">   
+    <link rel="stylesheet" href="styles/small.css">  
+    <script src="scripts/project.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=BBH+Sans+Bogle&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -18,7 +19,46 @@
         <a href="form.html">Form</a>
     </nav>
 </header>
+<body>
+    <h1 id="about-intro">About this site</h1>
+    <p id="about-text"> Some of my best memberies were with awesome roller coasters. My first big 
+        coaster was wicked at Lagoon and that's when they just fell in love. I 
+        had similar moments on talk to an Iron Gwazi where i'll just remember 
+        them forever because of how much fun I had and how much they suprised 
+        me. I also get excited about innovation in the rollercoaster space. 
+        Take pipeline, at SeaWorld Orlando. This coaster is a next generation
+        stand-up that is just a blast. It offers some of the most unique airtime 
+        I've ever experienced. There's nothing else like it in the world and for 
+        a prototype, or first of its kind it is absolutely mind blowing. I look 
+        forward to going on a lot more and broadening my horizons because there's 
+        still much more that I need to experience, but I don't see my love for 
+        them stopping ant time soon.
+    </p>
 
-<p></p>
-<p></p>
-<button id="coaster-generator">test</button>
+    <section id="coaster-pics">
+        <div>
+            <img class="about-img" src="images/six flags.webp" alt="Me at six Flags">
+            <figcaption class="caption">Me at six Flags for my 12th birthday</figcaption>
+        </div>
+        <div>
+            <img class="about-img" src="images/montu.webp" alt="Montu">
+            <figcaption class="caption">Montu's crazy layout</figcaption>
+        </div>
+        <div>
+            <img class="about-img" src="images/pipeline.webp" alt="Pipeline">
+            <figcaption class="caption">Pipeline! Only surf coaster in the world! took at that train!</figcaption>
+        </div>
+        <div> 
+            <img class="about-img" src="images/tron.webp" alt="Tron">
+            <figcaption class="caption">Tron at Disney World Magic Kingdom! such a cool ride!</figcaption>
+        </div>
+    </section>
+    <p id="prompt"> Feel inspired to go on some? Click blow to get a random suggestion on where to go!</p>
+    <p id="chosen-park"></p>
+    <button id="coaster-generator">Choose my park</button>
+</body>
+    <footer>
+        <p>&copy; <span id="currentYear"></span> Bridger Fronk</p>
+        <span id="lastModified"></span>
+</footer>
+</html>

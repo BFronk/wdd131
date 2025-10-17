@@ -17,6 +17,7 @@ parkPicker.addEventListener('click', () => {
         parkPicker.classList.toggle('hide')
     }
 });
+
 let numVisits = Number(window.localStorage.getItem('visits-ls'));
 numVisits++;
 localStorage.setItem('visits-ls', numVisits);
